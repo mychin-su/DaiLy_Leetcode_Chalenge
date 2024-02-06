@@ -16,7 +16,7 @@ public class Group_Anagrams_49 {
 			if (!myMap.containsKey(str)) {
 				myMap.put(str, new ArrayList<>());
 			}
-			myMap.get(str).add(s);
+			myMap.get(str).add(s); // lấy giá trị của str là list và add s vào list
 
 		}
 		List<List<String>> result = new ArrayList<>();
