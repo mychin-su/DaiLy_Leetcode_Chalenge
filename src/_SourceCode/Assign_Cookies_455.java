@@ -17,7 +17,7 @@ public class Assign_Cookies_455 {
 			} else
 				j++;
 		}
-		return i;
+		return count;
 	}
 
 	public static void main(String[] args) {
