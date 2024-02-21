@@ -13,7 +13,8 @@ public class Bitwise_AND_of_Numbers_Range_201 {
 		}
 		System.out.println();
 		// Left shift common bits to the right by the number of shifts
-		return left << shifts; // dịch trai shifts vị trí nghĩa là thêm các số 0 ở cuối vị trí và dịch  sang trái vì 2 = 0000 0010 và dịch 1  trang trái=> 0000 0100 = 4  
+		return left << shifts; // dịch trai shifts vị trí nghĩa là thêm các số 0 ở cuối vị trí và dịch sang
+								// trái vì 2 = 0000 0010 và dịch 1 trang trái=> 0000 0100 = 4
 	}
 
 	public static void main(String[] args) {
