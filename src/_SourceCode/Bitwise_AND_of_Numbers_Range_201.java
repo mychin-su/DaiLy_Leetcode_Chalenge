@@ -18,6 +18,6 @@ public class Bitwise_AND_of_Numbers_Range_201 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(rangeBitwiseAnd(5, 7));
+		System.out.println(rangeBitwiseAnd(4, 7));
 	}
 }
