@@ -1,6 +1,5 @@
 package _SourceCode;
 
-import Leetcode.Swap_Nodes_in_Pairs_24.ListNode;
 
 public class Swap_Node_In_Pair_24 {
 	public static class ListNode {
