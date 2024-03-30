@@ -23,7 +23,6 @@ public class Count_Subarrays_Where_Max_Elements_Appears_at_Least_K_Times_2962 {
         j++;
       }
       return ans;
-
   }
 
   public static void main(String[] args) {
