@@ -1,5 +1,7 @@
 package _SourceCode;
 
+import java.util.Arrays;
+
 public class Isomorphic_Strings_205 {
 	public static boolean isIsomorphic(String s, String t) {
 		int map1[] = new int[200];
@@ -12,6 +14,7 @@ public class Isomorphic_Strings_205 {
 			if (map1[s.charAt(i)] != map2[t.charAt(i)]) {
 				return false;
 			}
+			System.out.println(s.charAt(i));
 			map1[s.charAt(i)] = i + 1;
 			map2[t.charAt(i)] = i + 1;
 		}
