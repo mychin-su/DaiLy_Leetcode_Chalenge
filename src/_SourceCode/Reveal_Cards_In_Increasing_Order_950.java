@@ -32,7 +32,12 @@ public class Reveal_Cards_In_Increasing_Order_950 {
   }
 
   public static void main(String[] args) {
-    int[] deck = {17, 13, 11, 2, 3, 5, 7};
-    System.out.println(Arrays.toString(deckRevealedIncreasing(deck)));
+//    int[] deck = {17, 13, 11, 2, 3, 5, 7};
+//    System.out.println(Arrays.toString(deckRevealedIncreasing(deck)));
+
+    String s = "123455";
+    if(s.length() < 3 ){
+      System.out.println("123");
+    }
   }
 }
