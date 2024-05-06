@@ -12,15 +12,19 @@ public class Compare_Version_Numbers_165 {
         changed = true;
       }
 
+      //Changed = true khi a = version2, b = version1
+      // Chnaged = false lhi a = verssion 1, b = version2
+      // Do dai a > b
+
       for(int i = 0 ; i < a.length; i ++){
         String one = removeLeadingZeros(a[i]);
-        String two = i >= b.length ? "0" : removeLeadingZeros(b[i]);
+        String two = i >= b.length ? "0" : removeLeadingZeros(b[i]); // a dai hon b
         if(one.length() > two.length()) {
           return changed ? -1 : 1;
         } else if(one.length() < two.length()){
           return changed ? 1 : -1;
         }
-        else {
+        else { // Truong hop loai bo so 0 nhung 2 chuoi van co do dai bang nhau
           for(int j = 0; j < one.length(); j ++){
             if(one.charAt(j) > two.charAt(j)){
               return changed ? -1 : 1;
